@@ -8,10 +8,10 @@ function seed () {
   const basic = [
     { name: 'Full name', type: 'text', value: '' },
     { name: 'Job title', type: 'text', value: '' },
-    { name: 'Company', type: 'text', value: '' },
-    { name: 'Website', type: 'link', value: '' },
-    { name: 'Email', type: 'email', value: '' },
-    { name: 'Phone', type: 'text', value: '' }
+    { name: 'Company', type: 'text', value: 'Neurocritical Care Specialists, Inc.' },
+    { name: 'Website', type: 'link', value: 'https://neurocriticalcarespecialists.com' },
+    { name: 'Email', type: 'email', value: 'contact@neurocriticalcarespecialists.com' },
+    { name: 'Phone', type: 'text', value: '(239) 427-5541' }
   ]
 
   basic.forEach(item => {
