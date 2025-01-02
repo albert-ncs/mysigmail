@@ -43,9 +43,6 @@
               <div class="line long full" />
               <div class="line long full" />
             </div>
-            <div class="column-2">
-              <carbon-ad v-if="isProd" />
-            </div>
           </div>
           <div class="line long" />
           <div class="line long full" />
