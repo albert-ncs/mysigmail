@@ -8,64 +8,6 @@
     <div class="success-promo">
       <h1>🎉 Hooray 🎉</h1>
       <h2>Your signature successfully created and copied!</h2>
-      <br>
-      <p>Please tell about us 😇🙏</p>
-      <social-sharing
-        inline-template
-        url="https://mysigmail.com"
-        title="Check out simple and robust email signature generator"
-        hashtags="email, emailsignature"
-        twitter-user="mysigmail"
-      >
-        <div style="margin: 10px 0;">
-          <network network="facebook">
-            <div class="social-icon social-icon--fb">
-              <svg-icon
-                width="20"
-                height="20"
-                icon="facebook"
-              />
-            </div>
-          </network>
-          <network network="vk">
-            <div class="social-icon social-icon--vk">
-              <svg-icon
-                width="20"
-                height="20"
-                icon="vk"
-              />
-            </div>
-          </network>
-          <network network="twitter">
-            <div class="social-icon social-icon--tw">
-              <svg-icon
-                width="20"
-                height="20"
-                icon="twitter"
-              />
-            </div>
-          </network>
-          <network network="reddit">
-            <div class="social-icon social-icon--reddit">
-              <svg-icon
-                width="20"
-                height="20"
-                icon="reddit"
-              />
-            </div>
-          </network>
-          <network network="telegram">
-            <div class="social-icon social-icon--telegram">
-              <svg-icon
-                width="20"
-                height="20"
-                icon="telegram"
-              />
-            </div>
-          </network>
-        </div>
-      </social-sharing>
-      <p>Your opinion is very important to us.</p>
     </div>
   </el-dialog>
 </template>
