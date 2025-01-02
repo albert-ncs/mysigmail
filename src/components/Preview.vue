@@ -104,16 +104,8 @@
       <div class="preview__footer-inner">
         <donate />
         <div class="version">
-          <span><a href="mailto:reshetov.art@gmail.com">contact us</a></span>
+          <span><a href="mailto:contact@neurocriticalcarespecialists.com">contact us</a></span>
           <span>v{{ version }}</span>
-          <span>
-            <a
-              href="https://github.com/antonreshetov/mysigmail"
-              target="_blank"
-            >
-              <github-icon />
-            </a>
-          </span>
         </div>
       </div>
     </div>
@@ -145,7 +137,7 @@
 
 <script>
 import { mapGetters, mapState } from 'vuex'
-import CarbonAd from './CarbonAd'
+// import CarbonAd from './CarbonAd'
 import GithubIcon from '../assets/image/github.svg'
 import SuccessPromo from './SuccessPromo'
 
@@ -153,7 +145,7 @@ export default {
   name: 'Preview',
 
   components: {
-    CarbonAd,
+    // CarbonAd,
     GithubIcon,
     SuccessPromo
   },
