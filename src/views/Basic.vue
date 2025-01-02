@@ -17,7 +17,7 @@
               <el-col :span="16">
                 <el-input
                   v-model="imageUrl"
-                  placeholder="http://"
+                  placeholder="https://signature.neurocriticalcarespecialists.com/cdn/logo.png"
                   clearable
                   @clear="onClearImageLink"
                 />
