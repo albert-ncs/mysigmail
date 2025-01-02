@@ -6,8 +6,8 @@ const fields = {
 
 function seed () {
   const basic = [
-    { name: 'Full name', type: 'text', value: '' },
-    { name: 'Job title', type: 'text', value: '' },
+    { name: 'Full name', type: 'text', value: '[FIRST] [LAST], [TITLE]' },
+    { name: 'Job title', type: 'text', value: '[ROLE]' },
     { name: 'Company', type: 'text', value: 'Neurocritical Care Specialists, Inc.' },
     { name: 'Website', type: 'link', value: 'https://neurocriticalcarespecialists.com' },
     { name: 'Email', type: 'email', value: 'contact@neurocriticalcarespecialists.com' },
