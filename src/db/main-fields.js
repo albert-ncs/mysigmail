@@ -24,11 +24,11 @@ function seed () {
 function addPlaceholder () {
   const placeholders = [
     'John Doe',
-    'Frontend developer',
-    'JohnDoe LLC',
-    'johndoe.com',
-    'mail@jonhdoe.com',
-    '+ 1 123 456 7890'
+    'IT Manager',
+    'Neurocritical Care Specialists, Inc.',
+    'neurocriticalcarespecialists.com',
+    'john.doe@neurocriticalcarespecialists.com',
+    '(239) 427-5541'
   ]
 
   fields.basicPlaceholder = [
