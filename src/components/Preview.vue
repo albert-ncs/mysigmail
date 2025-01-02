@@ -148,7 +148,6 @@ import { mapGetters, mapState } from 'vuex'
 import CarbonAd from './CarbonAd'
 import GithubIcon from '../assets/image/github.svg'
 import SuccessPromo from './SuccessPromo'
-import Donate from './Donate'
 
 export default {
   name: 'Preview',
@@ -156,8 +155,7 @@ export default {
   components: {
     CarbonAd,
     GithubIcon,
-    SuccessPromo,
-    Donate
+    SuccessPromo
   },
 
   data () {
