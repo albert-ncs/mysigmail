@@ -3,7 +3,7 @@ import mainFields from '../../db/main-fields'
 export default {
   state: {
     image: {
-      link: ''
+      link: 'https://signature.neurocriticalcarespecialists.com/cdn/logo.png'
     },
     fields: mainFields.basic
   },
