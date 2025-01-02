@@ -124,7 +124,7 @@ export default {
       fieldName: '',
       filedValue: '',
       filedType: 'text',
-      imageLink: '',
+      imageLink: 'https://signature.neurocriticalcarespecialists.com/cdn/logo.png',
       showDialog: false,
       showAlert: false
     }
@@ -134,7 +134,7 @@ export default {
     ...mapState(['attributes', 'basic']),
     imageUrl: {
       get () {
-        return this.basic.image.link
+        return this.basic.image.link || 'https://signature.neurocriticalcarespecialists.com/cdn/logo.png'
       },
       set (v) {
         this.$store.dispatch('updateImage', { link: v })
