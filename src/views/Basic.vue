@@ -17,7 +17,7 @@
               <el-col :span="16">
                 <el-input
                   v-model="imageUrl"
-                  placeholder="https://signature.neurocriticalcarespecialists.com/cdn/logo.png"
+                  placeholder=""
                   clearable
                   @clear="onClearImageLink"
                 />
@@ -111,6 +111,8 @@ import { guid } from '../util/helpers'
 import FieldItem from './FieldItem'
 import Upload from '@/components/Upload'
 
+let LOGO_URL = 'https://signature.neurocriticalcarespecialists.com/cdn/logo.png'
+
 export default {
   name: 'Basic',
 
@@ -124,7 +126,7 @@ export default {
       fieldName: '',
       filedValue: '',
       filedType: 'text',
-      imageLink: 'https://signature.neurocriticalcarespecialists.com/cdn/logo.png',
+      imageLink: LOGO_URL,
       showDialog: false,
       showAlert: false
     }
@@ -134,7 +136,7 @@ export default {
     ...mapState(['attributes', 'basic']),
     imageUrl: {
       get () {
-        return this.basic.image.link || 'https://signature.neurocriticalcarespecialists.com/cdn/logo.png'
+        return this.basic.image.link
       },
       set (v) {
         this.$store.dispatch('updateImage', { link: v })

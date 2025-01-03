@@ -135,7 +135,7 @@
 <script>
 import { mapGetters, mapState } from 'vuex'
 // import CarbonAd from './CarbonAd'
-import GithubIcon from '../assets/image/github.svg'
+// import GithubIcon from '../assets/image/github.svg'
 import SuccessPromo from './SuccessPromo'
 
 export default {
@@ -143,7 +143,7 @@ export default {
 
   components: {
     // CarbonAd,
-    GithubIcon,
+    // GithubIcon,
     SuccessPromo
   },
 

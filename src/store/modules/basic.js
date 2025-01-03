@@ -1,9 +1,11 @@
 import mainFields from '../../db/main-fields'
 
+let LOGO_URL = 'https://signature.neurocriticalcarespecialists.com/cdn/logo.png'
+
 export default {
   state: {
     image: {
-      link: 'https://signature.neurocriticalcarespecialists.com/cdn/logo.png'
+      link: LOGO_URL
     },
     fields: mainFields.basic
   },
@@ -27,7 +29,7 @@ export default {
       state = Object.assign(state, data)
     },
     RESET_BASIC_FIELDS (state) {
-      state.image.link = ''
+      state.image.link = LOGO_URL
       state.fields = mainFields.basic
     }
   },
