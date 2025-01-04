@@ -114,9 +114,9 @@
                             v-for="item in socials.installed"
                             :key="item.name"
                             align="center"
-                            style="width: 20px; height: 20px; border-radius: 3px;"
+                            style="width: 20px; height: 20px; border-radius: 3px; border: 1px solid;"
                             :style="{
-                              backgroundColor: options.color.mainPreview || options.color.main,
+                              borderColor: options.color.mainPreview || options.color.main,
                             }"
                           >
                             <a :href="formatLink(item.link)">
