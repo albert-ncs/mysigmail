@@ -24,7 +24,8 @@ export default {
   },
 
   computed: {
-    ...mapState(['app', 'basic', 'options'])
+    // ...mapState(['app', 'basic', 'options'])
+    ...mapState(['app', 'options'])
   },
 
   async created () {

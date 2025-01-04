@@ -8,18 +8,17 @@ import locale from 'element-ui/lib/locale'
 import './assets/scss/element-ui.scss'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
-import VueAnalytics from 'vue-analytics'
-import SocialSharing from 'vue-social-sharing'
+// import SocialSharing from 'vue-social-sharing'
 import SvgIcon from './components/SvgIcon'
 Vue.component('svg-icon', SvgIcon)
 
-Vue.use(VueAnalytics, {
-  id: process.env.VUE_APP_GA || 'XX-XXXXXXXX-X',
-  debug: {
-    enabled: false,
-    sendHitTask: process.env.NODE_ENV === 'production'
-  }
-})
+// Vue.use(VueAnalytics, {
+//   id: process.env.VUE_APP_GA || 'XX-XXXXXXXX-X',
+//   debug: {
+//     enabled: false,
+//     sendHitTask: process.env.NODE_ENV === 'production'
+//   }
+// })
 
 Vue.mixin({
   methods: {
@@ -30,7 +29,7 @@ Vue.mixin({
 })
 
 Vue.use(ElementUI)
-Vue.use(SocialSharing)
+// Vue.use(SocialSharing)
 locale.use(lang)
 NProgress.configure({ showSpinner: false })
 
