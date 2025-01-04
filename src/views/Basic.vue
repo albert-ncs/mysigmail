@@ -17,7 +17,7 @@
               <el-col :span="16">
                 <el-input
                   v-model="imageUrl"
-                  placeholder="https://cdn.neucares.com/v1/logo/logo256.png"
+                  placeholder="https://cdn.neucares.com/v1/email/logo.png"
                   clearable
                   @clear="onClearImageLink"
                 />
