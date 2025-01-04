@@ -111,7 +111,7 @@ import { guid } from '../util/helpers'
 import FieldItem from './FieldItem'
 import Upload from '@/components/Upload'
 
-let LOGO_URL = 'https://cdn.neucares.com/v1/logo/logo256.png'
+let LOGO_URL = `${process.env.VUE_APP_AWS_S3_URL}/logo.png`
 
 export default {
   name: 'Basic',

@@ -1,22 +1,25 @@
-about:
-    node --version
+set dotenv-load
 
+help:
+    just --list --list-submodules
+
+# Run `npm install`
 install:
     npm install
 
+# Run `npm run serve`
 run:
     npm run serve
 
+# Push changes to server
 push:
     git add .
     -git commit -m "feat: add tweaks"
     git push
     ssh ncs-01 bash -c 'pwd && cd /home/albert.le/ncs/mysigmail && just pull build deploy'
 
-pull:
-    git reset --hard HEAD
-    git pull
 
+# Build the services
 build:
     npm run build
 
