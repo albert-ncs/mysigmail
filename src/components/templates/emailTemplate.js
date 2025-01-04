@@ -1,7 +1,7 @@
 import fields from '../../db/main-fields'
 import { mapState } from 'vuex'
 
-let S3URL = `${process.env.VUE_APP_AWS_S3_URL}/logo.png`
+let S3URL = process.env.VUE_APP_AWS_S3_URL
 
 export default {
   data () {
