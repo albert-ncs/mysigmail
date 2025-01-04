@@ -22,3 +22,9 @@ build:
 
 deploy:
     rsync -avz ./dist/ /var/www/signature.neurocriticalcarespecialists.com/
+
+
+png-convert:
+    cd src/assets/image/ && find . -type f -name "*.svg" -exec bash -c 'rsvg-convert -h 32 "$0" > "$0".png' {} \;
+    mv src/assets/image/*.png public/icons/
+    cd public/icons && rename 's/svg.png/png/' *
