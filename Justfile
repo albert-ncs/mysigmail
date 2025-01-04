@@ -1,6 +1,7 @@
 set dotenv-load
+set export
 
-help:
+@help:
     just --list --list-submodules
 
     echo "VUE_APP_AWS_S3_URL = $VUE_APP_AWS_S3_URL"
