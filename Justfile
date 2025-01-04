@@ -20,6 +20,10 @@ push:
     git push
     ssh ncs-01 bash -c 'pwd && cd /home/albert.le/ncs/mysigmail && just pull build deploy'
 
+pull:
+    git reset --hard HEAD
+    git pull
+
 
 # Build the services
 build:
