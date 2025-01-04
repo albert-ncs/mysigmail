@@ -1,6 +1,6 @@
 import mainFields from '../../db/main-fields'
 
-let LOGO_URL = 'https://cdn.neucares.com/v1/logo/logo.png'
+let LOGO_URL = 'https://cdn.neucares.com/v1/logo/logo256.png'
 
 export default {
   state: {
