@@ -3,7 +3,6 @@ set export
 
 @help:
     just --list --list-submodules
-
     echo "VUE_APP_AWS_S3_URL = $VUE_APP_AWS_S3_URL"
 
 # Run `npm install`
