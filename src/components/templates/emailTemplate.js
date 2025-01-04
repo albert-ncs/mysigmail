@@ -1,7 +1,7 @@
 import fields from '../../db/main-fields'
 import { mapState } from 'vuex'
 
-let S3URL = 'https://cdn.neucares.com/v1/'
+let S3URL = 'https://cdn.neucares.com/v1/email'
 
 export default {
   data () {
