@@ -2,10 +2,10 @@ export default {
     LOGO_URL: 'https://cdn.neucares.com/v1/email/logo.png',
     ICON_URL: 'https://cdn.neucares.com/v1/email/icons',
     S3URL: 'https://cdn.neucares.com/v1/email',
-    INDEX_DB_NAME: 'ncs-sig',
+    INDEX_DB_NAME: 'ncs_sig_v1',
     DEFAULTS: {
         MAIN_COLOR: '#0d3d57',
-        SECONDARY_COLOR: '#409eff',
+        SECONDARY_COLOR:  '#0d3d57', /* '#409eff', */
         FULL_NAME: '[FIRST] [LAST], [TITLE]',
         JOB_TITLE: '[ROLE]',
         COMPANY_NAME: 'NEUCARES (Neurocritical Care Specialists, Inc.)',
