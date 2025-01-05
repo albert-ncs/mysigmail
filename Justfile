@@ -13,12 +13,21 @@ install:
 run:
     npm run serve
 
-# Push changes to server
-push:
+commit:
     git add .
     -git commit -m "feat: add tweaks"
     git push
+
+
+# Push changes to server
+push: commit
     ssh ncs-01 bash -c 'pwd && cd /home/albert.le/ncs/mysigmail && just pull'
+
+
+# Push changes to server and deploy
+push-deploy: commit
+    ssh ncs-01 bash -c 'pwd && cd /home/albert.le/ncs/mysigmail && just pull build deploy'
+
 
 pull:
     git reset --hard HEAD
