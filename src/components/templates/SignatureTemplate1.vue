@@ -76,6 +76,8 @@
                                 fontWeight: 600
                               }]"
                             >{{ item.name }}:&nbsp;</span>
+                          </td>
+                          <td>
                             <a
                               v-if="item.type === 'link'"
                               :href="formatLink(item.value)"
