@@ -4,6 +4,8 @@ export default {
     S3URL: 'https://cdn.neucares.com/v1/email',
     INDEX_DB_NAME: 'ncs-sig',
     DEFAULTS: {
+        MAIN_COLOR: '#0d3d57',
+        SECONDARY_COLOR: '#409eff',
         FULL_NAME: '[FIRST] [LAST], [TITLE]',
         JOB_TITLE: '[ROLE]',
         COMPANY_NAME: 'NEUCARES (Neurocritical Care Specialists, Inc.)',

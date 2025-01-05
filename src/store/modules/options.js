@@ -1,4 +1,5 @@
 import { merge } from 'lodash-es'
+import config from '../../config'
 
 const INIT_STATE = {
   avatar: {
@@ -11,9 +12,9 @@ const INIT_STATE = {
     family: 'Arial, Helvetica, sans-serif'
   },
   color: {
-    main: '#409eff',
+    main: config.DEFAULTS.MAIN_COLOR,
     mainPreview: undefined,
-    secondary: '#409eff',
+    secondary: config.DEFAULTS.SECONDARY_COLOR,
     secondaryPreview: undefined
   },
   separator: '/'
@@ -31,9 +32,9 @@ export default {
       family: 'Arial, Helvetica, sans-serif'
     },
     color: {
-      main: '#409eff',
+      main: config.DEFAULTS.MAIN_COLOR,
       mainPreview: undefined,
-      secondary: '#409eff',
+      secondary: config.DEFAULTS.SECONDARY_COLOR,
       secondaryPreview: undefined
     },
     separator: '/'
