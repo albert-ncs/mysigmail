@@ -110,7 +110,7 @@ import { mapState } from 'vuex'
 import { guid } from '../util/helpers'
 import FieldItem from './FieldItem'
 import Upload from '@/components/Upload'
-import { LOGO_URL } from 'config'
+import { LOGO_URL } from '../config'
 
 export default {
   name: 'Basic',
