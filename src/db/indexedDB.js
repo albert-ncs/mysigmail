@@ -1,4 +1,5 @@
-const dbname = 'mysigmail'
+import config from '../config'
+const dbname = config.INDEX_DB_NAME
 const version = 1
 let db = ''
 let request = ''
