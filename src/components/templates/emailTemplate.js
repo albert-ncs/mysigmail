@@ -1,13 +1,12 @@
 import fields from '../../db/main-fields'
 import { mapState } from 'vuex'
-
-let S3URL = 'https://cdn.neucares.com/v1/email'
+import config from '../../config'
 
 export default {
   data () {
     return {
       filterFields: ['Full name', 'Job title', 'Company'],
-      s3url: S3URL
+      s3url: config.S3URL
     }
   },
 

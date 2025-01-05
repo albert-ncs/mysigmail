@@ -1,11 +1,10 @@
 import mainFields from '../../db/main-fields'
-
-let LOGO_URL = 'https://cdn.neucares.com/v1/email/logo.png'
+import config from '../../config'
 
 export default {
   state: {
     image: {
-      link: LOGO_URL
+      link: config.LOGO_URL
     },
     fields: mainFields.basic
   },
@@ -29,7 +28,7 @@ export default {
       state = Object.assign(state, data)
     },
     RESET_BASIC_FIELDS (state) {
-      state.image.link = LOGO_URL
+      state.image.link = config.LOGO_URL
       state.fields = mainFields.basic
     }
   },
