@@ -12,9 +12,9 @@ function seed () {
     { name: 'Full name', type: 'text', value: defvals.FULL_NAME },
     { name: 'Job title', type: 'text', value: defvals.JOB_TITLE },
     { name: 'Company', type: 'text', value: defvals.COMPANY_NAME },
-    { name: 'Website', type: 'link', value: defvals.WEBSITE},
-    { name: 'Email', type: 'email', value: defvals.CONTACT_EMAIL},
-    { name: 'Phone', type: 'text', value: defvals.PHONE_NUMBER}
+    { name: 'Website', type: 'link', value: defvals.WEBSITE },
+    { name: 'Email', type: 'email', value: defvals.CONTACT_EMAIL },
+    { name: 'Phone', type: 'text', value: defvals.PHONE_NUMBER }
   ]
 
   basic.forEach(item => {
