@@ -110,7 +110,7 @@ import { mapState } from 'vuex'
 import { guid } from '../util/helpers'
 import FieldItem from './FieldItem'
 import Upload from '@/components/Upload'
-import { LOGO_URL } from '../config'
+import config from '../config'
 
 export default {
   name: 'Basic',
@@ -125,7 +125,7 @@ export default {
       fieldName: '',
       filedValue: '',
       filedType: 'text',
-      imageLink: LOGO_URL,
+      imageLink: config.LOGO_URL,
       showDialog: false,
       showAlert: false
     }
